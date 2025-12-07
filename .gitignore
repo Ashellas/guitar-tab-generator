@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Data directories (preserve structure, ignore content)
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
+data/models/*
+!data/models/.gitkeep
+
+# Logs
+*.log
+app.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+```
+
+---
+
+## data/input/.gitkeep
+```
+# This file preserves the input directory in version control
+```
+
+## data/output/.gitkeep
+```
+# This file preserves the output directory in version control
+```
+
+## data/models/.gitkeep
+```
+# This file preserves the models directory in version control
+```
+
+---
+
+## requirements.txt
+```
+# Core Dependencies
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+audioread>=3.0.0
+
+# Source Separation
+demucs>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Pitch Detection
+crepe>=0.0.13
+
+# Audio Downloading
+yt-dlp>=2023.10.0
+
+# Music Theory
+music21>=9.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilities
+tqdm>=4.66.0  # Progress bars
+```
+
+---
+
+## Convention for Empty Directories
+
+**You did it correctly!** The standard convention is **`.gitkeep`** (not `.gitinclude`).
+
+### Why `.gitkeep`?
+- Git doesn't track empty directories
+- `.gitkeep` is a community convention (not official Git)
+- Tells developers "this directory is intentionally here"
+
+### Your files should be:
+```
+data/input/.gitkeep
+data/output/.gitkeep
+data/models/.gitkeep
