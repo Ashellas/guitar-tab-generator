@@ -11,7 +11,7 @@ An AI-powered application that separates guitar from mixed audio tracks and gene
 
 ## Project Status
 
-🚧 **In Development** - Initial scaffolding complete
+**In Development** - Initial scaffolding complete
 
 ### Completed
 - [x] Project structure
