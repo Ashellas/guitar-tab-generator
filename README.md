@@ -79,12 +79,6 @@ guitar-tab-generator/
 
 See [docs/architecture.md](docs/architecture.md) for system design details.
 
-See [docs/development_log.md](docs/development_log.md) for development progress.
-
-## License
-
-MIT License - This is a non-commercial educational project.
-
 ## Acknowledgments
 
 - **Demucs** by Meta AI Research
